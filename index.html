@@ -1,0 +1,64 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 90vh;
+            background-color: rgb(28, 27, 27);
+        }
+        .button{
+            position: absolute;
+            margin-right: 200px;
+        }
+        .header{
+        font-family: 'Nunito';
+        font-size: 40px;
+        font-weight: bold;
+        color: rgb(250, 233, 242);
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 0px;
+        }
+        .btn {
+        font-family: monospace;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin-top: 5px;
+        margin-left: 90px;
+        background-color: #f909e5;
+        color: #ffffff;
+        padding: 30px 80px;
+        text-align: center;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        border: none;
+        border-radius: 120px;
+        }           
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1 class="header">Hey K'mo!!! <br>I got something for YOU!!!</h1>
+        <div class="gif_container">
+            <img src="https://media4.giphy.com/media/SvvfK2dco188Wk4ZTq/giphy.gif" alt="cute_gif">
+        </div>
+        <div class="button">
+            <button class="btn" id="thankyou" onclick="nextPage()">Thank You K'nuth</button>
+            <script>
+                function nextPage(){
+                    window.location.href="index1.html";
+                }
+            </script>
+        </div>
+    </div>
+    
+</body>
+</html>
