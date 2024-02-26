@@ -986,3 +986,24 @@ body {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* Media Queries for Responsive Design */
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 300px 0; /* Adjust padding for smaller screens */
+  }
+
+  .flower {
+    bottom: 5vmin; /* Adjust position of flowers on smaller screens */
+  }
+
+  .flower__line {
+    height: 60vmin; /* Adjust height of flower lines on smaller screens */
+  }
+
+  /* Add more styles for smaller screens as needed */
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
